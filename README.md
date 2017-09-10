@@ -7,7 +7,17 @@ Just for fun.
 ### Three types
 
 * normaldos: Just a simple icmp dos tool.
-* fakeipdos:
-* DDoS: 
+* fakeipdos: Disguising as someone else and launch an dos attack.
+* DDoS: Launch a distrubuted dos attack, let many other machine attack you victim.
 
-TO BE WRITEN……
+### principle
+
+![](ddos.png)
+
+## Some comments
+
+这个程序只是拿来练习测试而已，仅供学习，不要乱搞事。以下是拿一台服务器测试的后果，服务器被封掉了（我只是测试而已，我也很绝望啊）。
+
+和谐上网，与人为善，好好学习！
+
+![](gg.png)

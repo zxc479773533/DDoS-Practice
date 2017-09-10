@@ -10,7 +10,7 @@
 
 #define PAYLOAD_SIZE 0
 
-#define MAX_THREAD 32
+#define MAX_THREAD 64
 
 u_long src_ip, dst_ip;
 
@@ -117,6 +117,7 @@ int main(int argc, char **argv) {
     }
 
     // create thread
+    printf("Attack!\n");
     pthread_t attack[MAX_THREAD];
     int i, error_code;
     for (i = 0; i < MAX_THREAD; i++) {
