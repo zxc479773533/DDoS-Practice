@@ -10,6 +10,14 @@ Just for fun.
 * fakeipdos: Disguising as someone else and launch an dos attack.
 * DDoS: Launch a distrubuted dos attack, let many other machine attack you victim.
 
+### Usage:
+
+```shell
+sudo ./normaldos <target ip>
+sudo ./fakeipdos <target ip> <fake ip>
+sudo ./ddos <target ip> <start ip> <end ip>
+```
+
 ### principle
 
 ![](ddos.png)
